@@ -5,28 +5,3 @@
   list-style: none;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  
-   
-}
-
-
-nav h3{
-    height: 30%;
-}
-
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  border: 2px solid black;
-  border-radius: 5px;
-  background-color: #b11e1e;
-  margin: 1%;
-  width: 80vw;
-  height: 17vh;
-  color: rgb(255, 238, 0);
-}
