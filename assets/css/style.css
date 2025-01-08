@@ -8,8 +8,13 @@
 header {
 
   grid-area: header;
-  background-color: blue;
-  height: 100%;
+  background-image: url(../img/header.jpeg);
+  /* background-color: blue; */
+  height: 250px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  
 }
 
 
@@ -70,7 +75,7 @@ main{
 
 .item1{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -84,7 +89,7 @@ main{
 
 .item2{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -98,7 +103,7 @@ main{
 
 .item3{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -112,7 +117,7 @@ main{
 
 .item4{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -126,7 +131,7 @@ main{
 
 .item5{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -140,7 +145,7 @@ main{
 
 .item6{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -154,7 +159,7 @@ main{
 
 .item7{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -168,7 +173,7 @@ main{
 
 .item8{
 
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -213,6 +218,9 @@ footer{
     "aside main main"
     "aside main main"
     "footer footer footer";
-    background-color: burlywood;
+    background-image: url(../img/simbolo2.jpeg);
+    background-size:cover;
+    opacity: 10;
+    /* background-color: burlywood; */
   
   }
